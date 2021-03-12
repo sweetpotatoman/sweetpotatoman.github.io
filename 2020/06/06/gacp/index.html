@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>gacp | potato Blog</title>
+    <meta name="description" content="gacp: git-add-commit-push
+
+一个简单的 gacp (Mac 终端)
+
+在 Public 目录下创建一个 gacp.sh 脚本并添加以下内容
+#!/bin/sh
+
+set -x  # Output executed commands
+set -e  # Make script fail as soon as one command fa ...">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.b60f97a4.css" as="style"><link rel="preload" href="/assets/js/app.37a59442.js" as="script"><link rel="preload" href="/assets/js/6.577b5fc9.js" as="script"><link rel="preload" href="/assets/js/4.990f093e.js" as="script"><link rel="preload" href="/assets/js/13.9d847bbd.js" as="script"><link rel="prefetch" href="/assets/js/1.836aefc7.js"><link rel="prefetch" href="/assets/js/10.2f2ae9fe.js"><link rel="prefetch" href="/assets/js/11.9688ac93.js"><link rel="prefetch" href="/assets/js/12.7c7b2cf9.js"><link rel="prefetch" href="/assets/js/14.f155477b.js"><link rel="prefetch" href="/assets/js/15.b322cbe3.js"><link rel="prefetch" href="/assets/js/16.cd356d08.js"><link rel="prefetch" href="/assets/js/17.03e42a48.js"><link rel="prefetch" href="/assets/js/18.26358fbd.js"><link rel="prefetch" href="/assets/js/19.b91d0c6e.js"><link rel="prefetch" href="/assets/js/5.28c62dce.js"><link rel="prefetch" href="/assets/js/7.266e17c2.js"><link rel="prefetch" href="/assets/js/8.7e04e668.js"><link rel="prefetch" href="/assets/js/9.02e97b54.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.da6e1ebe.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b60f97a4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">potato Blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Home</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">potato Blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Home</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="mobile-nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        gacp
+      </h1> <div class="post-meta"><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="post-meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">potato</span> <span itemprop="address">   in shenzhen</span></div> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2020-06-06T00:00:00.000Z">
+      Sat Jun 06 2020
+    </time></div> <ul itemprop="keywords" class="post-meta-tags"><li class="post-tag" data-v-d832e844><a href="/tag/git" data-v-d832e844> git </a></li><li class="post-tag" data-v-d832e844><a href="/tag/shell" data-v-d832e844> shell </a></li></ul></div></header> <div itemprop="articleBody" class="content__default"><blockquote><p>gacp: git-add-commit-push</p></blockquote> <h3 id="一个简单的-gacp-mac-终端"><a href="#一个简单的-gacp-mac-终端" class="header-anchor">#</a> 一个简单的 gacp <code>(Mac 终端)</code></h3> <ul><li>在 Public 目录下创建一个 gacp.sh 脚本并添加以下内容</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token shebang important">#!/bin/sh</span>
+
+<span class="token builtin class-name">set</span> -x  <span class="token comment"># Output executed commands</span>
+<span class="token builtin class-name">set</span> -e  <span class="token comment"># Make script fail as soon as one command fails</span>
+
+<span class="token builtin class-name">read</span> MESSAGE
+
+<span class="token function">git</span> <span class="token function">add</span> -A
+<span class="token function">git</span> commit -m <span class="token string">&quot;<span class="token variable">$MESSAGE</span>&quot;</span>
+<span class="token function">git</span> push origin master
+</code></pre></div><ul><li>修改 .zshrc 文件，添加 alias</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token builtin class-name">alias</span> <span class="token assign-left variable">gacp</span><span class="token operator">=</span><span class="token string">'sh ~/Public/gacp.sh'</span>
+</code></pre></div><ul><li>在某个项目下使用 gacp</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code>~/Work<span class="token operator">&gt;</span> gacp
++ <span class="token builtin class-name">set</span> -e
++ <span class="token builtin class-name">read</span> MESSAGE
+<span class="token builtin class-name">test</span> gacp  // 输入你这次的 commit 信息
++ <span class="token function">git</span> <span class="token function">add</span> -A
++ <span class="token function">git</span> commit -m <span class="token string">'test gacp'</span>
+<span class="token punctuation">[</span>master e31f913<span class="token punctuation">]</span> <span class="token builtin class-name">test</span> gacp
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">1</span> insertion<span class="token punctuation">(</span>+<span class="token punctuation">)</span>, <span class="token number">1</span> deletion<span class="token punctuation">(</span>-<span class="token punctuation">)</span>
++ <span class="token function">git</span> push origin master
+Enumerating objects: <span class="token number">5</span>, done.
+Counting objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">5</span>/5<span class="token punctuation">)</span>, done.
+Delta compression using up to <span class="token number">4</span> threads
+Compressing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">3</span>/3<span class="token punctuation">)</span>, done.
+Writing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">3</span>/3<span class="token punctuation">)</span>, <span class="token number">283</span> bytes <span class="token operator">|</span> <span class="token number">283.00</span> KiB/s, done.
+Total <span class="token number">3</span> <span class="token punctuation">(</span>delta <span class="token number">2</span><span class="token punctuation">)</span>, reused <span class="token number">0</span> <span class="token punctuation">(</span>delta <span class="token number">0</span><span class="token punctuation">)</span>
+remote: Resolving deltas: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">2</span>/2<span class="token punctuation">)</span>, completed with <span class="token number">2</span> <span class="token builtin class-name">local</span> objects.
+To github.com:sweetpotatoman/Work.git
+   8f6a5ca<span class="token punctuation">..</span>e31f913  master -<span class="token operator">&gt;</span> master
+</code></pre></div><h3 id="更强的-gacp"><a href="#更强的-gacp" class="header-anchor">#</a> 更强的 gacp</h3> <ul><li><a href="https://github.com/vivaxy/gacp" target="_blank" rel="noopener noreferrer">gacp<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br> <img src="/image/gacp.gif" alt="gacp-gif"></li></ul></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h3 active"><a href="#一个简单的-gacp-mac-终端" title="一个简单的 gacp (Mac 终端)">一个简单的 gacp (Mac 终端)</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#更强的-gacp" title="更强的 gacp">更强的 gacp</a></div></div></div></div> <footer class="footer" data-v-fdbf4940><div class="footer-left-wrap" data-v-fdbf4940><ul class="contact" data-v-fdbf4940></ul></div> <div class="footer-right-wrap" data-v-fdbf4940><ul class="copyright" data-v-fdbf4940></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.37a59442.js" defer></script><script src="/assets/js/6.577b5fc9.js" defer></script><script src="/assets/js/4.990f093e.js" defer></script><script src="/assets/js/13.9d847bbd.js" defer></script>
+  </body>
+</html>

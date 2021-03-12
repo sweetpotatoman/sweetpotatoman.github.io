@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>tmux | potato Blog</title>
+    <meta name="description" content="Tmux 是一个 BSD 协议发布的终端复用软件，用来在服务器端托管同时运行的 Shell
+
+tmux
+
+安装
+brew install tmux       # OSX
+pacman -S tmux          # archlinux
+apt-get install tmux    # Ubuntu
+yum install tm ...">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.b60f97a4.css" as="style"><link rel="preload" href="/assets/js/app.37a59442.js" as="script"><link rel="preload" href="/assets/js/6.577b5fc9.js" as="script"><link rel="preload" href="/assets/js/4.990f093e.js" as="script"><link rel="preload" href="/assets/js/14.f155477b.js" as="script"><link rel="prefetch" href="/assets/js/1.836aefc7.js"><link rel="prefetch" href="/assets/js/10.2f2ae9fe.js"><link rel="prefetch" href="/assets/js/11.9688ac93.js"><link rel="prefetch" href="/assets/js/12.7c7b2cf9.js"><link rel="prefetch" href="/assets/js/13.9d847bbd.js"><link rel="prefetch" href="/assets/js/15.b322cbe3.js"><link rel="prefetch" href="/assets/js/16.cd356d08.js"><link rel="prefetch" href="/assets/js/17.03e42a48.js"><link rel="prefetch" href="/assets/js/18.26358fbd.js"><link rel="prefetch" href="/assets/js/19.b91d0c6e.js"><link rel="prefetch" href="/assets/js/5.28c62dce.js"><link rel="prefetch" href="/assets/js/7.266e17c2.js"><link rel="prefetch" href="/assets/js/8.7e04e668.js"><link rel="prefetch" href="/assets/js/9.02e97b54.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.da6e1ebe.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b60f97a4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">potato Blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Home</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">potato Blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Home</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="mobile-nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        tmux
+      </h1> <div class="post-meta"><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="post-meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">potato</span> <span itemprop="address">   in shenzhen</span></div> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2020-06-14T00:00:00.000Z">
+      Sun Jun 14 2020
+    </time></div> <ul itemprop="keywords" class="post-meta-tags"><li class="post-tag" data-v-d832e844><a href="/tag/shell" data-v-d832e844> shell </a></li><li class="post-tag" data-v-d832e844><a href="/tag/terminal" data-v-d832e844> terminal </a></li></ul></div></header> <div itemprop="articleBody" class="content__default"><blockquote><p>Tmux 是一个 BSD 协议发布的终端复用软件，用来在服务器端托管同时运行的 Shell</p></blockquote> <p><img src="/image/tmux.png" alt="tmux"></p> <h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <div class="language- extra-class"><pre class="language-text"><code>brew install tmux       # OSX
+pacman -S tmux          # archlinux
+apt-get install tmux    # Ubuntu
+yum install tmux        # Centos
+</code></pre></div><h3 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> 基本概念</h3> <p>tmux 主要元素分为三层:</p> <ul><li><strong>Session</strong> 一组窗口的集合，通常用来概括同一个任务。session 可以有自己的名字便于任务之间的切换。</li> <li><strong>Window</strong> 单个可见窗口。Windows 有自己的编号 (默认是从0开始编号的)</li> <li><strong>Pane</strong> 窗格，被划分成小块的窗口，类似于 Vim 中 C-w +v 后的效果。</li></ul> <blockquote><p><strong>prefix</strong>: tmux 需要先按前置键，再按其他键实现不同的功能。默认的 prefix 是 <strong>Ctrl+b</strong></p></blockquote> <h3 id="tmux-cheatsheet"><a href="#tmux-cheatsheet" class="header-anchor">#</a> tmux cheatsheet</h3> <h4 id="正常终端模式"><a href="#正常终端模式" class="header-anchor">#</a> 正常终端模式</h4> <div class="language- extra-class"><pre class="language-text"><code>启动新会话：
+tmux [new -s 会话名 -n 窗口名]
+
+恢复会话：
+tmux at [-t 会话名]
+
+列出所有会话：
+tmux ls
+
+关闭会话：
+tmux kill-session -t 会话名
+
+关闭所有会话：
+kill-server
+</code></pre></div><h4 id="基本操作"><a href="#基本操作" class="header-anchor">#</a> 基本操作</h4> <div class="language- extra-class"><pre class="language-text"><code>?  列出所有快捷键；按q返回
+d  脱离当前会话,可暂时返回Shell界面
+s  选择并切换会话；在同时开启了多个会话时使用
+D  选择要脱离的会话；在同时开启了多个会话时使用
+t  显示当前的时间
+:  进入命令行模式；此时可输入支持的命令，例如 kill-server 关闭所有tmux会话
+:list-commands  tmux内置命令帮助
+</code></pre></div><h4 id="会话"><a href="#会话" class="header-anchor">#</a> 会话</h4> <div class="language- extra-class"><pre class="language-text"><code>:new&lt;回车&gt;  启动新会话
+d  分离当前会话
+s  列出所有会话
+$  重命名当前会话
+</code></pre></div><h4 id="窗口"><a href="#窗口" class="header-anchor">#</a> 窗口</h4> <div class="language- extra-class"><pre class="language-text"><code>c  创建新窗口
+w  列出所有窗口
+n  后一个窗口
+p  前一个窗口
+f  在所有窗口中查找关键词查找窗口
+,  重命名当前窗口
+.  修改当前窗口编号
+&amp;  关闭当前窗口
+</code></pre></div><h4 id="窗格"><a href="#窗格" class="header-anchor">#</a> 窗格</h4> <div class="language- extra-class"><pre class="language-text"><code>%  垂直分割
+&quot;  水平分割
+o  交换窗格
+x  关闭窗格
+q  显示每个窗格是第几个，当数字出现的时候按数字几就选中第几个窗格
+{  与上一个窗格交换位置
+}  与下一个窗格交换位置
+z  切换窗格最大化/最小化
+空格键  切换布局
+alt+o  逆时针旋转当前窗口的面板
+ctrl+o  顺时针旋转当前窗口的面板
+</code></pre></div><h4 id="配置项"><a href="#配置项" class="header-anchor">#</a> 配置项</h4> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token comment"># 鼠标支持 - 设置为 on 来启用鼠标</span>
+:set -g mouse on
+</code></pre></div><h3 id="推荐的配置文件（-tmux-conf）"><a href="#推荐的配置文件（-tmux-conf）" class="header-anchor">#</a> 推荐的配置文件（~/.tmux.conf）</h3> <div class="language- extra-class"><pre class="language-text"><code># -----------------------------------------------------------------------------
+# Tmux 基本配置 - 要求 Tmux &gt;= 2.3
+# 如果不想使用插件，只需要将此节的内容写入 ~/.tmux.conf 即可
+# -----------------------------------------------------------------------------
+
+# C-b 和 VIM 冲突，修改 Prefix 组合键为 Control-Z，按键距离近
+set -g prefix C-z
+
+set -g base-index         1     # 窗口编号从 1 开始计数
+set -g display-panes-time 10000 # PREFIX-Q 显示编号的驻留时长，单位 ms
+set -g mouse              on    # 开启鼠标
+set -g pane-base-index    1     # 窗格编号从 1 开始计数
+set -g renumber-windows   on    # 关掉某个窗口后，编号重排
+
+setw -g allow-rename      off   # 禁止活动进程修改窗口名
+setw -g automatic-rename  off   # 禁止自动命名新窗口
+setw -g mode-keys         vi    # 进入复制模式的时候使用 vi 键位（默认是 EMACS）
+
+# -----------------------------------------------------------------------------
+# 使用插件 - via tpm
+#   1. 执行 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#   2. 执行 bash ~/.tmux/plugins/tpm/bin/install_plugins
+# -----------------------------------------------------------------------------
+
+setenv -g TMUX_PLUGIN_MANAGER_PATH '~/.tmux/plugins'
+
+# 推荐的插件（请去每个插件的仓库下读一读使用教程）
+set -g @plugin 'seebi/tmux-colors-solarized'
+set -g @plugin 'tmux-plugins/tmux-pain-control'
+set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin 'tmux-plugins/tpm'
+
+# tmux-resurrect
+set -g @resurrect-dir '~/.tmux/resurrect'
+
+# tmux-prefix-highlight
+set -g status-right '#{prefix_highlight} #H | %a %Y-%m-%d %H:%M'
+set -g @prefix_highlight_show_copy_mode 'on'
+set -g @prefix_highlight_copy_mode_attr 'fg=white,bg=blue'
+
+# 初始化 TPM 插件管理器 (放在配置文件的最后)
+run '~/.tmux/plugins/tpm/tpm'
+</code></pre></div><h3 id="todo"><a href="#todo" class="header-anchor">#</a> TODO</h3> <ul><li>运行 tmux 的服务器关闭之后，session 会丢失，可以使用 tmuxinator 来解决</li> <li>iterm2 结合 tmux</li></ul></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h3 active"><a href="#安装" title="安装">安装</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#基本概念" title="基本概念">基本概念</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#tmux-cheatsheet" title="tmux cheatsheet">tmux cheatsheet</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#推荐的配置文件（-tmux-conf）" title="推荐的配置文件（~/.tmux.conf）">推荐的配置文件（~/.tmux.conf）</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#todo" title="TODO">TODO</a></div></div></div></div> <footer class="footer" data-v-fdbf4940><div class="footer-left-wrap" data-v-fdbf4940><ul class="contact" data-v-fdbf4940></ul></div> <div class="footer-right-wrap" data-v-fdbf4940><ul class="copyright" data-v-fdbf4940></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.37a59442.js" defer></script><script src="/assets/js/6.577b5fc9.js" defer></script><script src="/assets/js/4.990f093e.js" defer></script><script src="/assets/js/14.f155477b.js" defer></script>
+  </body>
+</html>

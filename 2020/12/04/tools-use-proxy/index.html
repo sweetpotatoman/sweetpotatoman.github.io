@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>tools use proxy | potato Blog</title>
+    <meta name="description" content="由于安全因素和网络因素在访问一些网站时需要使用代理，下面简要介绍下各种工具配置使用代理
+
+很多人在工作中，使用一些工具不配置代理，很多因为网络问题经常出现进度条毫无动静，还会出现 connection refused or time out 等的报错
+
+以下是各工具配置代理的方法
+
+pip
+使用 pip 的 –proxy 指定代理
+pip - ...">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.b60f97a4.css" as="style"><link rel="preload" href="/assets/js/app.37a59442.js" as="script"><link rel="preload" href="/assets/js/6.577b5fc9.js" as="script"><link rel="preload" href="/assets/js/4.990f093e.js" as="script"><link rel="preload" href="/assets/js/17.03e42a48.js" as="script"><link rel="prefetch" href="/assets/js/1.836aefc7.js"><link rel="prefetch" href="/assets/js/10.2f2ae9fe.js"><link rel="prefetch" href="/assets/js/11.9688ac93.js"><link rel="prefetch" href="/assets/js/12.7c7b2cf9.js"><link rel="prefetch" href="/assets/js/13.9d847bbd.js"><link rel="prefetch" href="/assets/js/14.f155477b.js"><link rel="prefetch" href="/assets/js/15.b322cbe3.js"><link rel="prefetch" href="/assets/js/16.cd356d08.js"><link rel="prefetch" href="/assets/js/18.26358fbd.js"><link rel="prefetch" href="/assets/js/19.b91d0c6e.js"><link rel="prefetch" href="/assets/js/5.28c62dce.js"><link rel="prefetch" href="/assets/js/7.266e17c2.js"><link rel="prefetch" href="/assets/js/8.7e04e668.js"><link rel="prefetch" href="/assets/js/9.02e97b54.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.da6e1ebe.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b60f97a4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">potato Blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Home</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">potato Blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Home</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">Tag</a></li><li class="mobile-nav-item"><a href="https://sweetpotatoman.github.io/docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">Doc</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        tools use proxy
+      </h1> <div class="post-meta"><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="post-meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">potato</span> <span itemprop="address">   in shenzhen</span></div> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2020-12-04T00:00:00.000Z">
+      Fri Dec 04 2020
+    </time></div> <ul itemprop="keywords" class="post-meta-tags"><li class="post-tag" data-v-d832e844><a href="/tag/network" data-v-d832e844> network </a></li><li class="post-tag" data-v-d832e844><a href="/tag/proxy" data-v-d832e844> proxy </a></li></ul></div></header> <div itemprop="articleBody" class="content__default"><blockquote><p>由于安全因素和网络因素在访问一些网站时需要使用代理，下面简要介绍下各种工具配置使用代理</p></blockquote> <p>很多人在工作中，使用一些工具不配置代理，很多因为网络问题经常出现进度条毫无动静，还会出现 <code>connection refused</code> or <code>time out</code> 等的报错</p> <p><strong>以下是各工具配置代理的方法</strong></p> <h3 id="pip"><a href="#pip" class="header-anchor">#</a> pip</h3> <ol><li>使用 pip 的 <code>–proxy</code> 指定代理</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code>pip --proxy<span class="token operator">=</span>http://username:password@proxyURL:portNumber <span class="token function">install</span> xxx
+</code></pre></div><ol start="2"><li>当然你也可以配置国内源的方式解决网络问题</li></ol> <p>各系统 pip 配置位置 (没有找到目录或者文件的，创建新的即可)</p> <div class="language- extra-class"><pre class="language-text"><code>Linux/Unix:
+/etc/pip.conf
+~/.pip/pip.conf
+~/.config/pip/pip.conf
+ 
+Mac OSX:
+~/Library/Application Support/pip/pip.conf
+~/.pip/pip.conf
+/Library/Application Support/pip/pip.conf
+
+Windows:
+%APPDATA%\pip\pip.ini
+%HOME%\pip\pip.ini
+</code></pre></div><p>pip.conf</p> <div class="language- extra-class"><pre class="language-text"><code>[global]
+index-url = http://pypi.douban.com/simple #豆瓣源，可以换成其他的源
+extra-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = 
+    pypi.douban.com            #添加豆瓣源为可信主机，要不然可能报错
+    pypi.tuna.tsinghua         #清华
+timeout = 120
+</code></pre></div><p>其它源</p> <div class="language- extra-class"><pre class="language-text"><code>清华：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+华中理工大学：http://pypi.hustunique.com/
+山东理工大学：http://pypi.sdutlinux.org/ 
+豆瓣：http://pypi.douban.com/simple/
+</code></pre></div><ul><li>为了使用更方便，可以使用 <code>alias pip</code> 配置使用代理方式</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token builtin class-name">alias</span> <span class="token assign-left variable">pip</span><span class="token operator">=</span><span class="token string">&quot;pip --proxy 127.0.0.1:xxxx&quot;</span>
+</code></pre></div><h3 id="wget"><a href="#wget" class="header-anchor">#</a> wget</h3> <ol><li>使用配置文件 <code>~/.wgetrc</code></li></ol> <div class="language- extra-class"><pre class="language-text"><code>use_proxy=yes
+http_proxy=127.0.0.1:8080
+https_proxy=127.0.0.1:8080
+</code></pre></div><ol><li>使用 <code>-e</code> 参数
+<code>wget</code> 本身没有专门设置代理的命令行参数，但是有一个 <code>-e</code> 参数，可以在命令行上指定一个原本出现在 <code>.wgetrc</code> 中的设置</li></ol> <div class="language- extra-class"><pre class="language-text"><code>wget ... -e use_proxy=yes -e http_proxy=127.0.0.1:8080 ...
+</code></pre></div><ol start="3"><li>在环境变量中设置代理</li></ol> <div class="language- extra-class"><pre class="language-text"><code>export http_proxy=http://proxy_host:proxy_port
+
+# 验证方式
+export http_proxy=http://username:password@proxy_host:proxy_port
+</code></pre></div><ul><li>为了使用更方便，可以使用 <code>alias wget-proxy</code> 配置使用代理方式</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token builtin class-name">alias</span> wget-proxy<span class="token operator">=</span><span class="token string">&quot;wget -e use_proxy=yes -e http_proxy=127.0.0.1:8080 -e https_proxy=127.0.0.1:8080&quot;</span>
+</code></pre></div><h3 id="curl"><a href="#curl" class="header-anchor">#</a> curl</h3> <ol><li>使用 <code>-x</code> 参数</li></ol> <div class="language- extra-class"><pre class="language-text"><code># 指定http代理IP和端口
+curl -x 127.0.0.1:8080 https://google.com
+
+#指定为 http 代理
+curl -x http_proxy://127.0.0.1:8080 https://google.com
+ 
+#指定为https代理
+curl -x HTTPS_PROXY://1127.0.0.1:8080 https://google.com
+ 
+#指定代理用户名和密码，basic认证方式
+curl -x admin:123456@127.0.0.1:8080 https://google.com
+curl -x 127.0.0.1:8080 -U admin:123456 https://google.com
+curl -x 127.0.0.1:8080 --proxy-user admin:123456 https://google.com
+ 
+#指定代理用户名和密码，ntlm认证方式
+curl -x 127.0.0.1:8080 -U admin:123456 --proxy-ntlm https://google.com
+ 
+#指定代理协议、用户名和密码，basic认证方式
+curl -x http_proxy://admin:123456@127.0.0.1:8080 https://google.com
+
+#使用 socks 协议方式
+curl -x socks5://[user:password@]proxyhost[:port]/ url
+curl --socks5 127.0.0.1:8080 https://google.com
+</code></pre></div><ol start="2"><li>编辑 <code>~/.curlrc</code> (如果没有该文件，新建即可)</li></ol> <div class="language- extra-class"><pre class="language-text"><code>proxy = 127.0.0.1:8080
+
+# 如果需要认证方式
+proxy-user = &quot;foo:bar&quot;
+</code></pre></div><ul><li>为了使用更方便，可以使用 <code>alias curl-proxy</code> 配置使用代理方式</li></ul> <div class="language- extra-class"><pre class="language-text"><code>alias curl-proxy=&quot;curl -x 127.0.0.1:8080&quot;
+</code></pre></div><h3 id="npm"><a href="#npm" class="header-anchor">#</a> npm</h3> <ol><li>命令行参数</li></ol> <div class="language- extra-class"><pre class="language-text"><code>npm install --proxy http://127.0.0.1:8080
+</code></pre></div><ol start="2"><li>npm 配置的命令行操作</li></ol> <div class="language- extra-class"><pre class="language-text"><code># 配置 http 代理
+npm config set proxy &quot;http://127.0.0.1:8080&quot;
+npm config set https-proxy &quot;http://127.0.0.1:8080&quot;
+# 有用户密码的代理
+npm config set proxy &quot;http://username:password@127.0.0.1:8080&quot;
+
+# npm 不支持 socks 代理，但是我们可以用一个工具将 http 代理转成 socks 代理
+npm install -g http-proxy-to-socks
+# 然后使用这个工具监听 8080 端口,支持 http 代理，然后所有 8080 的 http 代理数据都将转换成 socks 的代理数据发送到 9090 上
+hpts -s 127.0.0.1:9090 -p 8080
+# 最后设置 npm 代理为 8080
+npm config set proxy &quot;http://127.0.0.1:8080&quot;
+npm config set https-proxy &quot;http://127.0.0.1:8080&quot;
+
+# 相当于又加了一个中间层，将 http 转成 socks
+</code></pre></div><ul><li>删除代理
+<ul><li>npm config delete proxy</li> <li>npm config delete https-proxy</li></ul></li></ul> <h3 id="git"><a href="#git" class="header-anchor">#</a> git</h3> <ol><li>http or https 协议</li></ol> <div class="language- extra-class"><pre class="language-text"><code># 设置全局代理
+git config --global https.proxy http://127.0.0.1:8080
+git config --global https.proxy https://127.0.0.1:8080
+
+git config --global http.proxy socks5://127.0.0.1:8080
+git config --global https.proxy socks5://127.0.0.1:8080
+
+# 只对 github.com 使用代理，其他仓库不走代理
+git config --global http.https://github.com.proxy socks5://127.0.0.1:8080
+git config --global https.https://github.com.proxy socks5://127.0.0.1:8080
+# 取消 github 代理
+git config --global --unset http.https://github.com.proxy
+git config --global --unset https.https://github.com.proxy
+
+# 取消全局代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+</code></pre></div><ol start="2"><li>ssh 协议</li></ol> <div class="language- extra-class"><pre class="language-text"><code># 对于使用 git@ 协议的，可以配置 socks5 代理
+# 在 ~/.ssh/config 文件后面添加几行，没有可以新建一个
+# socks5
+Host github.com
+User git
+ProxyCommand connect -S 127.0.0.1:1080 %h %p
+
+# http or https
+Host github.com
+User git
+ProxyCommand connect -H 127.0.0.1:1080 %h %p
+</code></pre></div><h3 id="docker"><a href="#docker" class="header-anchor">#</a> docker</h3> <ol><li>配置环境变量</li></ol> <p>创建目录</p> <div class="language- extra-class"><pre class="language-text"><code>mkdir /etc/systemd/system/docker.service.d
+</code></pre></div><p>在该目录创建一个 <strong>http-proxy.conf</strong> 文件，并添加以下变量</p> <div class="language- extra-class"><pre class="language-text"><code>vim /etc/systemd/system/docker.service.d/http-proxy.conf
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>[Service]
+Environment=&quot;HTTP_PROXY=http://user01:password@10.10.10.10:8080/&quot;
+Environment=&quot;HTTPS_PROXY=https://user01:password@10.10.10.10:8080/&quot;
+Environment=&quot;NO_PROXY= hostname.example.com,172.10.10.10&quot;
+</code></pre></div><p>reload systemd daemon</p> <div class="language- extra-class"><pre class="language-text"><code>systemctl daemon-reload
+</code></pre></div><p>restart docker</p> <div class="language- extra-class"><pre class="language-text"><code>systemctl restart docker
+</code></pre></div><h3 id="maven"><a href="#maven" class="header-anchor">#</a> maven</h3> <h3 id="kubectl"><a href="#kubectl" class="header-anchor">#</a> kubectl</h3></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h3 active"><a href="#pip" title="pip">pip</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#wget" title="wget">wget</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#curl" title="curl">curl</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#npm" title="npm">npm</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#git" title="git">git</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#docker" title="docker">docker</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#maven" title="maven">maven</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#kubectl" title="kubectl">kubectl</a></div></div></div></div> <footer class="footer" data-v-fdbf4940><div class="footer-left-wrap" data-v-fdbf4940><ul class="contact" data-v-fdbf4940></ul></div> <div class="footer-right-wrap" data-v-fdbf4940><ul class="copyright" data-v-fdbf4940></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.37a59442.js" defer></script><script src="/assets/js/6.577b5fc9.js" defer></script><script src="/assets/js/4.990f093e.js" defer></script><script src="/assets/js/17.03e42a48.js" defer></script>
+  </body>
+</html>
